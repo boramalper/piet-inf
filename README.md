@@ -2,7 +2,8 @@ piet∞
 =====
 Infinitely-recursive procedurally-generated [Piet][1]-esque compositions.
 
-![SS0](./sss/ss0.png "The Composition") **->** ![SS1](./sss/ss1.png "Sub-Composition on the top-left corner of the Composition")
+| ![SS0](https://github.com/boramalper/piet-inf/raw/master/sss/ss0.png "The Composition") | **->** | ![SS1](https://github.com/boramalper/piet-inf/raw/master/sss/ss1.png "Sub-Composition on the top-left corner of the Composition") |
+|:---------------------------------------------------------------------------------------:|:------:|:---------------------------------------------------------------------------------------------------------------------------------:|
 
 [1]: https://en.wikipedia.org/wiki/Piet_Mondrian
 
