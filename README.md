@@ -42,7 +42,7 @@ Usage
 ╔═══════╤═══╗
 ║ 7   8 │ 9 ║  To zoom to a merged cell, you can use any of the keys it spans.
 ║  ANY  ├───╢
-║ 4   5 │ 6 ║
+║ 4   5 │ 6 ║  Press 0 to zoom out.
 ╟───┬───┼───╢
 ║ 1 │ 2 │ 3 ║
 ╚═══╧═══╧═══╝
@@ -51,12 +51,20 @@ Usage
 ╔═══════╤═══╗
 ║ 7   8 │ 9 ║  Only square cells are zoomable.
 ║  ANY  ├───╢
-║ 4   5 │ 6 ║  Press 0 to zoom out, ESC to quit.
+║ 4   5 │ 6 ║
 ╟───┬───┴───╢
 ║ 1 │       ║
 ╚═══╧═══════╝
 ```
-
+```
+╔═══════════╗
+║           ║  If there are no square cells either zoom out, or -if you just run
+╟───────────╢  the program- quit by pressing ESC and restart.
+║           ║
+╟───────────╢
+║           ║
+╚═══════════╝
+```
 BUGS & TODOs
 ------------
 * Make sure that every world (*i.e.* composition) has at least one square tile
