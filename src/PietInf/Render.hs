@@ -17,11 +17,7 @@ csl2ssl = 30 / 92
 bt2ssl  =  1 / 92
 
 render :: (Int,Int) -> World -> Picture
-render opts =
-    let
-        screenSideLength = fst opts
-        maxRenderDepth = snd opts
-    in
+render (screenSideLength, maxRenderDepth) =
         render' screenSideLength maxRenderDepth
     where
         render' :: Int -> Int -> World -> Picture
